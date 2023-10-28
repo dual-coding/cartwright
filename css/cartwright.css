@@ -1,0 +1,24 @@
+html {
+    background-color: #031b21;
+    scroll-behavior: smooth;
+}
+
+.navbar, .navbar-burger, .navbar-menu {
+    background-color: #081f38 !important;
+}
+
+#cartwright-light-no-text {
+    background: url(../img/cartwright-light-no-text.svg);
+    background-size: cover;
+    width: 125px;
+}
+
+#upcoming-shows {
+    background: rgb(3,27,33);
+    background: radial-gradient(circle, rgba(3,27,33,1) 0%, rgba(23,83,98,1) 100%);
+}
+
+#about-us {
+    background: rgb(201,81,188);
+    background: radial-gradient(circle, rgba(201,81,188,1) 0%, rgba(255,100,133,1) 100%);
+}
