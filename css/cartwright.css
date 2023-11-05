@@ -13,7 +13,7 @@ html {
     width: 125px;
 }
 
-#upcoming-shows {
+#shows {
     background: rgb(3,27,33);
     background: radial-gradient(circle, rgba(3,27,33,1) 0%, rgba(23,83,98,1) 100%);
 }
