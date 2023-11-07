@@ -14,8 +14,8 @@ html {
 }
 
 #shows {
-    background: rgb(3,27,33);
-    background: radial-gradient(circle, rgba(3,27,33,1) 0%, rgba(23,83,98,1) 100%);
+    background: rgb(57,102,148);
+    background: radial-gradient(circle, rgba(57,102,148,1) 0%, rgba(58,168,173,1) 100%);
 }
 
 #about-us {
