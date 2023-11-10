@@ -4,7 +4,7 @@ html {
 }
 
 .navbar, .navbar-burger, .navbar-menu {
-    background-color: #081f38 !important;
+    background-color: rgb(0, 0, 0) !important;
 }
 
 #cartwright-light-no-text {
@@ -13,12 +13,16 @@ html {
     width: 125px;
 }
 
-#shows {
+#show {
     background: rgb(57,102,148);
-    background: radial-gradient(circle, rgba(57,102,148,1) 0%, rgba(58,168,173,1) 100%);
+    background: radial-gradient(circle, rgb(74, 125, 176) 0%, rgb(50, 147, 152) 100%);
 }
 
 #about-us {
     background: rgb(201,81,188);
     background: radial-gradient(circle, rgba(201,81,188,1) 0%, rgba(255,100,133,1) 100%);
+}
+
+#eventbox {
+    background: rgba(0, 0, 0, 0.5);
 }
