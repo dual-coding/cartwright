@@ -30,6 +30,27 @@
         gtag('config', 'G-B19Q5KT4HJ');
         </script>
 
+        <!-- Noscript content for added SEO -->
+        <noscript><a href="https://www.eventbrite.com/e/cartwright-comedy-stand-up-comedy-show-tickets-748927511347" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+        <!-- You can customize this button any way you like -->
+        <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '748927511347',
+                modal: true,
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-748927511347',
+                onOrderComplete: exampleCallback
+            });
+        </script>
+
+
+
         <div id="header"></div>
         
         <section class="hero is-fullheight-with-navbar" style="background: center top/cover url('img/cartwright-banner.jpg');";>
@@ -63,9 +84,8 @@
                         <div class="columns is-variable is-8 has-text-centered is-vcentered mt-2">
                             <div class="column is-one-half">
                                 <p class="subtitle has-text-white is-4 has-text-weight-bold"> 
-                                    <a href="https://www.eventbrite.com/e/cartwright-comedy-stand-up-comedy-show-tickets-748927511347?aff=site"> 
-                                        <button class="button is-danger is-large has-text-weight-bold">Buy tickets now</button>
-                                    </a> 
+                                    
+                                    <button class="button is-danger is-large has-text-weight-bold" id="eventbrite-widget-modal-trigger-748927511347">Buy tickets now</button>
             
                                     <a href="/#show">
                                         <button class="button is-info is-large">More info</button>
@@ -108,9 +128,7 @@
                         </div>
 
                         <p class="subtitle has-text-white is-3"> 
-                            <a href="https://www.eventbrite.com/e/cartwright-comedy-stand-up-comedy-show-tickets-748927511347?aff=site">
-                                <button class="button is-danger is-medium has-text-weight-bold">Buy tickets now</button>
-                            </a>
+                            <button class="button is-danger is-medium has-text-weight-bold" id="eventbrite-widget-modal-trigger-748927511347">Buy tickets now</button>
                         </p>
 
                         <p class="subtitle has-text-white is-3"> 
