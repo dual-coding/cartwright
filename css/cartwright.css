@@ -13,6 +13,11 @@ html {
     width: 125px;
 }
 
+#headliner {
+    background: rgb(55, 155, 82);
+    background: radial-gradient(circle, rgb(55, 155, 82), rgb(78, 171, 62) 100%);
+}
+
 #show {
     background: rgb(57,102,148);
     background: radial-gradient(circle, rgb(74, 125, 176) 0%, rgb(50, 147, 152) 100%);
