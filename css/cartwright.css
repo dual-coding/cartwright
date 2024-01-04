@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+@import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -2150,7 +2150,7 @@ progress {
   padding: 0;
 }
 .form-control::placeholder {
-  color: var(--bs-secondary-color);
+  color: #ced4da;
   opacity: 1;
 }
 .form-control:disabled {
@@ -11886,12 +11886,16 @@ textarea.form-control-lg {
   background-color: #520dc2;
 }
 
-#marketing {
+#benefits {
   background-color: #0d6efd;
 }
 
 #pricing {
   background-color: #198754;
+}
+
+#situations {
+  background-color: #0d6efd;
 }
 
 /*# sourceMappingURL=cartwright.css.map */
